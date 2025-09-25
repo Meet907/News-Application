@@ -1,7 +1,7 @@
 
 import React from 'react'
-import { Droppable, Draggable } from 'react-beautiful-dnd'
-import { motion, AnimatePresence } from 'framer-motion'
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { motion, AnimatePresence } from 'framer-motion';
 import Card from './Card'
 
 export default function Column({ column, cards, onApprove, onReject }) {
