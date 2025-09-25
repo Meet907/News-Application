@@ -12,5 +12,7 @@
     "react-dom": "18.2.0",
     "rss-parser": "^3.12.0",
     "axios": "^1.4.0"
+    "framer-motion": "^11.x.x",
+    "react-beautiful-dnd": "^13.x.x"
   }
 }
